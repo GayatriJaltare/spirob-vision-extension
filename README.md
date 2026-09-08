@@ -155,7 +155,7 @@ Use the per-term panels instead:
 | Metric | Interpretation |
 | --- | --- |
 | Episode_Termination/success_egg_inside_bucket | The only direct measure of task success |
-| Episode_Reward/egg_delta_progress | Signed egg movement toward the bucket — distinguishes correct from incorrect direction |
+| Episode_Reward/egg_delta_progress | Signed egg movement toward the bucket - distinguishes correct from incorrect direction |
 | Episode_Termination/egg_fell | Fraction of episodes ending with the egg displaced from the pedestal |
 | Episode_Termination/time_out | Fraction reaching the 800-step limit; high with flat reward means inactivity |
 | Entropy loss, action std | Whether learning is occurring at all. Values at initialisation (≈3.11, ≈1.15) indicate no effective gradient |
