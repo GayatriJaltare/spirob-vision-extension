@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Training artifacts
+logs/
+wandb/
+*.pt
+outputs/
+
+# Generated during runs
+cnn_view.png
+check_weights.py
+save_camera_frame.py
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Notebook checkpoints
+.ipynb_checkpoints/
